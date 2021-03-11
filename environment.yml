@@ -25,14 +25,24 @@ dependencies:
   - cython
   - tqdm
   - markdown
+  - plotly
+  - conda-forge::psychopy
+  - joblib
   - pip:
     - expyriment
     - pygame
-    - jupyterlab-solutions
+    #- jupyterlab-solutions
     - jupyterlab_code_formatter
     - nb_black
     - ipympl
-    - scikit-misc
+    - jax
+    - jaxlib
     - pySerial
     - tqdm
     - cleanipynb
+    - mypy
+    #psychopy
+    - psychtoolbox
+    - pyo
+    - pyparallel; platform_system != "Windows"
+    - SoundFile; platform_system == "Windows"
